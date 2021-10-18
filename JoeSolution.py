@@ -21,6 +21,7 @@ def userEnter (month, sales, userInput):
             #break is used as this is a while loop, and without break it would be an indefinite loop (run forever)
             break
         elif month in ["Apr", "May", "Jun", "apr", "may","jun"]:
+            #elif used in place of else if, as elif = else if
             NextMonthSales = sales * 1.15
             print(NextMonthSales)
             break
